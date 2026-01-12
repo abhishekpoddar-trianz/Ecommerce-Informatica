@@ -1,0 +1,85 @@
+@page
+@model EcommerceInformatica.Web.Pages.Invoice.CreateModel
+@{
+    ViewData["Title"] = "Create Invoice";
+}
+
+<div class="container mt-4">
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <h2><i class="bi bi-plus-circle"></i> Create Invoice</h2>
+        </div>
+        <div class="col-md-6 text-end">
+            <a asp-page="Index" class="btn btn-secondary">
+                <i class="bi bi-arrow-left"></i> Back to List
+            </a>
+        </div>
+    </div>
+
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white">
+            <h5 class="mb-0">Invoice Information</h5>
+        </div>
+        <div class="card-body">
+            <form method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                <div class="mb-3">
+                    <label asp-for="Invoice.InvoiceNumber" class="form-label"></label>
+                    <input asp-for="Invoice.InvoiceNumber" class="form-control" />
+                    <span asp-validation-for="Invoice.InvoiceNumber" class="text-danger"></span>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="Invoice.PersonId" class="form-label"></label>
+                        <select asp-for="Invoice.PersonId" class="form-select" asp-items="Model.Persons">
+                            <option value="">-- Select Person --</option>
+                        </select>
+                        <span asp-validation-for="Invoice.PersonId" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="Invoice.PaymentMethodId" class="form-label"></label>
+                        <select asp-for="Invoice.PaymentMethodId" class="form-select" asp-items="Model.PaymentMethods">
+                            <option value="">-- Select Payment Method --</option>
+                        </select>
+                        <span asp-validation-for="Invoice.PaymentMethodId" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="Invoice.InvoiceDate" class="form-label"></label>
+                        <input asp-for="Invoice.InvoiceDate" class="form-control" type="date" />
+                        <span asp-validation-for="Invoice.InvoiceDate" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="Invoice.TotalAmount" class="form-label"></label>
+                        <input asp-for="Invoice.TotalAmount" class="form-control" type="number" step="0.01" />
+                        <span asp-validation-for="Invoice.TotalAmount" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="form-check">
+                        <input asp-for="Invoice.IsActive" class="form-check-input" type="checkbox" />
+                        <label asp-for="Invoice.IsActive" class="form-check-label"></label>
+                    </div>
+                </div>
+
+                <div class="mt-4">
+                    <button type="submit" class="btn btn-primary">
+                        <i class="bi bi-save"></i> Create Invoice
+                    </button>
+                    <a asp-page="Index" class="btn btn-secondary">
+                        <i class="bi bi-x-circle"></i> Cancel
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

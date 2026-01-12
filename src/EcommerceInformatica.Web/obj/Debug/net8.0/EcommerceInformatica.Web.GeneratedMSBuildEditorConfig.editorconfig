@@ -1,0 +1,255 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = EcommerceInformatica.Web
+build_property.RootNamespace = EcommerceInformatica.Web
+build_property.ProjectDir = /modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Brand/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQnJhbmQvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Brand/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQnJhbmQvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Brand/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQnJhbmQvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Brand/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQnJhbmQvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Brand/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQnJhbmQvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0ZWdvcnkvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Category/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0ZWdvcnkvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Category/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0ZWdvcnkvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0ZWdvcnkvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0ZWdvcnkvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/City/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2l0eS9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/City/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2l0eS9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/City/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2l0eS9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/City/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2l0eS9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/City/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2l0eS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Invoice/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW52b2ljZS9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Invoice/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW52b2ljZS9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Invoice/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW52b2ljZS9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Invoice/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW52b2ljZS9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Invoice/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW52b2ljZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/InvoiceDetail/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW52b2ljZURldGFpbC9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/InvoiceDetail/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW52b2ljZURldGFpbC9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/InvoiceDetail/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW52b2ljZURldGFpbC9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/InvoiceDetail/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW52b2ljZURldGFpbC9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/InvoiceDetail/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW52b2ljZURldGFpbC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/PaymentMethod/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGF5bWVudE1ldGhvZC9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/PaymentMethod/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGF5bWVudE1ldGhvZC9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/PaymentMethod/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGF5bWVudE1ldGhvZC9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/PaymentMethod/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGF5bWVudE1ldGhvZC9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/PaymentMethod/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGF5bWVudE1ldGhvZC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Person/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGVyc29uL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Person/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGVyc29uL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Person/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGVyc29uL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Person/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGVyc29uL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Person/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGVyc29uL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Product/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdC9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Product/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdC9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Product/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdC9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Product/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdC9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Province/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvdmluY2UvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Province/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvdmluY2UvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Province/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvdmluY2UvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Province/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvdmluY2UvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Province/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvdmluY2UvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Supplier/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3VwcGxpZXIvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Supplier/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3VwcGxpZXIvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Supplier/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3VwcGxpZXIvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Supplier/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3VwcGxpZXIvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/Supplier/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3VwcGxpZXIvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/modernize-data/studio-data/TNT1001/APP2895/transformed-code/980/studio-workspace/Ecommerce-Informatica/src/EcommerceInformatica.Web/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

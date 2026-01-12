@@ -1,0 +1,80 @@
+@page
+@model EcommerceInformatica.Web.Pages.Supplier.CreateModel
+@{
+    ViewData["Title"] = "Create Supplier";
+}
+
+<div class="container mt-4">
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <h2><i class="bi bi-plus-circle"></i> Create Supplier</h2>
+        </div>
+        <div class="col-md-6 text-end">
+            <a asp-page="Index" class="btn btn-secondary">
+                <i class="bi bi-arrow-left"></i> Back to List
+            </a>
+        </div>
+    </div>
+
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white">
+            <h5 class="mb-0">Supplier Information</h5>
+        </div>
+        <div class="card-body">
+            <form method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                <div class="mb-3">
+                    <label asp-for="Supplier.Name" class="form-label"></label>
+                    <input asp-for="Supplier.Name" class="form-control" />
+                    <span asp-validation-for="Supplier.Name" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Supplier.ContactPerson" class="form-label"></label>
+                    <input asp-for="Supplier.ContactPerson" class="form-control" />
+                    <span asp-validation-for="Supplier.ContactPerson" class="text-danger"></span>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="Supplier.Email" class="form-label"></label>
+                        <input asp-for="Supplier.Email" class="form-control" type="email" />
+                        <span asp-validation-for="Supplier.Email" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="Supplier.Phone" class="form-label"></label>
+                        <input asp-for="Supplier.Phone" class="form-control" type="tel" />
+                        <span asp-validation-for="Supplier.Phone" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Supplier.Address" class="form-label"></label>
+                    <textarea asp-for="Supplier.Address" class="form-control" rows="3"></textarea>
+                    <span asp-validation-for="Supplier.Address" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <div class="form-check">
+                        <input asp-for="Supplier.IsActive" class="form-check-input" type="checkbox" />
+                        <label asp-for="Supplier.IsActive" class="form-check-label"></label>
+                    </div>
+                </div>
+
+                <div class="mt-4">
+                    <button type="submit" class="btn btn-primary">
+                        <i class="bi bi-save"></i> Create Supplier
+                    </button>
+                    <a asp-page="Index" class="btn btn-secondary">
+                        <i class="bi bi-x-circle"></i> Cancel
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

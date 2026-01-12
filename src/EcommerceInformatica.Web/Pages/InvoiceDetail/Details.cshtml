@@ -1,0 +1,88 @@
+@page
+@model EcommerceInformatica.Web.Pages.InvoiceDetail.DetailsModel
+@{
+    ViewData["Title"] = "Invoice Detail Details";
+}
+
+<div class="container mt-4">
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <h2><i class="bi bi-card-list"></i> Invoice Detail Details</h2>
+        </div>
+        <div class="col-md-6 text-end">
+            <a asp-page="Index" class="btn btn-secondary">
+                <i class="bi bi-arrow-left"></i> Back to List
+            </a>
+        </div>
+    </div>
+
+    @if (Model.InvoiceDetail != null)
+    {
+        <div class="card shadow-sm">
+            <div class="card-header bg-primary text-white">
+                <h5 class="mb-0">Invoice Detail Information</h5>
+            </div>
+            <div class="card-body">
+                <dl class="row">
+                    <dt class="col-sm-3">Invoice Number:</dt>
+                    <dd class="col-sm-9">@Model.InvoiceDetail.InvoiceNumber</dd>
+
+                    <dt class="col-sm-3">Product:</dt>
+                    <dd class="col-sm-9">@Model.InvoiceDetail.ProductName</dd>
+
+                    <dt class="col-sm-3">Quantity:</dt>
+                    <dd class="col-sm-9">@Model.InvoiceDetail.Quantity</dd>
+
+                    <dt class="col-sm-3">Unit Price:</dt>
+                    <dd class="col-sm-9">@Model.InvoiceDetail.UnitPrice.ToString("C")</dd>
+
+                    <dt class="col-sm-3">Subtotal:</dt>
+                    <dd class="col-sm-9"><strong>@Model.InvoiceDetail.Subtotal.ToString("C")</strong></dd>
+
+                    <dt class="col-sm-3">Status:</dt>
+                    <dd class="col-sm-9">
+                        @if (Model.InvoiceDetail.IsActive)
+                        {
+                            <span class="badge bg-success">Active</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-secondary">Inactive</span>
+                        }
+                    </dd>
+
+                    <dt class="col-sm-3">Created Date:</dt>
+                    <dd class="col-sm-9">@Model.InvoiceDetail.CreatedDate.ToString("MMM dd, yyyy HH:mm")</dd>
+
+                    <dt class="col-sm-3">Created By:</dt>
+                    <dd class="col-sm-9">@Model.InvoiceDetail.CreatedBy</dd>
+
+                    @if (Model.InvoiceDetail.ModifiedDate.HasValue)
+                    {
+                        <dt class="col-sm-3">Modified Date:</dt>
+                        <dd class="col-sm-9">@Model.InvoiceDetail.ModifiedDate.Value.ToString("MMM dd, yyyy HH:mm")</dd>
+
+                        <dt class="col-sm-3">Modified By:</dt>
+                        <dd class="col-sm-9">@Model.InvoiceDetail.ModifiedBy</dd>
+                    }
+                </dl>
+            </div>
+            <div class="card-footer">
+                <div class="btn-group" role="group">
+                    <a asp-page="Edit" asp-route-id="@Model.InvoiceDetail.Id" class="btn btn-warning">
+                        <i class="bi bi-pencil"></i> Edit
+                    </a>
+                    <a asp-page="Delete" asp-route-id="@Model.InvoiceDetail.Id" class="btn btn-danger">
+                        <i class="bi bi-trash"></i> Delete
+                    </a>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-warning" role="alert">
+            <i class="bi bi-exclamation-triangle"></i> Invoice detail not found.
+        </div>
+    }
+</div>

@@ -1,0 +1,76 @@
+@page
+@model EcommerceInformatica.Web.Pages.Province.DetailsModel
+@{
+    ViewData["Title"] = "Province Details";
+}
+
+<div class="container mt-4">
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <h2><i class="bi bi-geo-alt"></i> Province Details</h2>
+        </div>
+        <div class="col-md-6 text-end">
+            <a asp-page="Index" class="btn btn-secondary">
+                <i class="bi bi-arrow-left"></i> Back to List
+            </a>
+        </div>
+    </div>
+
+    @if (Model.Province != null)
+    {
+        <div class="card shadow-sm">
+            <div class="card-header bg-primary text-white">
+                <h5 class="mb-0">@Model.Province.Name</h5>
+            </div>
+            <div class="card-body">
+                <dl class="row">
+                    <dt class="col-sm-3">Name:</dt>
+                    <dd class="col-sm-9">@Model.Province.Name</dd>
+
+                    <dt class="col-sm-3">Status:</dt>
+                    <dd class="col-sm-9">
+                        @if (Model.Province.IsActive)
+                        {
+                            <span class="badge bg-success">Active</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-secondary">Inactive</span>
+                        }
+                    </dd>
+
+                    <dt class="col-sm-3">Created Date:</dt>
+                    <dd class="col-sm-9">@Model.Province.CreatedDate.ToString("MMM dd, yyyy HH:mm")</dd>
+
+                    <dt class="col-sm-3">Created By:</dt>
+                    <dd class="col-sm-9">@Model.Province.CreatedBy</dd>
+
+                    @if (Model.Province.ModifiedDate.HasValue)
+                    {
+                        <dt class="col-sm-3">Modified Date:</dt>
+                        <dd class="col-sm-9">@Model.Province.ModifiedDate.Value.ToString("MMM dd, yyyy HH:mm")</dd>
+
+                        <dt class="col-sm-3">Modified By:</dt>
+                        <dd class="col-sm-9">@Model.Province.ModifiedBy</dd>
+                    }
+                </dl>
+            </div>
+            <div class="card-footer">
+                <div class="btn-group" role="group">
+                    <a asp-page="Edit" asp-route-id="@Model.Province.Id" class="btn btn-warning">
+                        <i class="bi bi-pencil"></i> Edit
+                    </a>
+                    <a asp-page="Delete" asp-route-id="@Model.Province.Id" class="btn btn-danger">
+                        <i class="bi bi-trash"></i> Delete
+                    </a>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-warning" role="alert">
+            <i class="bi bi-exclamation-triangle"></i> Province not found.
+        </div>
+    }
+</div>

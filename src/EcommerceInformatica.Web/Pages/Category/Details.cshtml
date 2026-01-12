@@ -1,0 +1,79 @@
+@page
+@model EcommerceInformatica.Web.Pages.Category.DetailsModel
+@{
+    ViewData["Title"] = "Category Details";
+}
+
+<div class="container mt-4">
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <h2><i class="bi bi-tags"></i> Category Details</h2>
+        </div>
+        <div class="col-md-6 text-end">
+            <a asp-page="Index" class="btn btn-secondary">
+                <i class="bi bi-arrow-left"></i> Back to List
+            </a>
+        </div>
+    </div>
+
+    @if (Model.Category != null)
+    {
+        <div class="card shadow-sm">
+            <div class="card-header bg-primary text-white">
+                <h5 class="mb-0">@Model.Category.Name</h5>
+            </div>
+            <div class="card-body">
+                <dl class="row">
+                    <dt class="col-sm-3">Name:</dt>
+                    <dd class="col-sm-9">@Model.Category.Name</dd>
+
+                    <dt class="col-sm-3">Description:</dt>
+                    <dd class="col-sm-9">@Model.Category.Description</dd>
+
+                    <dt class="col-sm-3">Status:</dt>
+                    <dd class="col-sm-9">
+                        @if (Model.Category.IsActive)
+                        {
+                            <span class="badge bg-success">Active</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-secondary">Inactive</span>
+                        }
+                    </dd>
+
+                    <dt class="col-sm-3">Created Date:</dt>
+                    <dd class="col-sm-9">@Model.Category.CreatedDate.ToString("MMM dd, yyyy HH:mm")</dd>
+
+                    <dt class="col-sm-3">Created By:</dt>
+                    <dd class="col-sm-9">@Model.Category.CreatedBy</dd>
+
+                    @if (Model.Category.ModifiedDate.HasValue)
+                    {
+                        <dt class="col-sm-3">Modified Date:</dt>
+                        <dd class="col-sm-9">@Model.Category.ModifiedDate.Value.ToString("MMM dd, yyyy HH:mm")</dd>
+
+                        <dt class="col-sm-3">Modified By:</dt>
+                        <dd class="col-sm-9">@Model.Category.ModifiedBy</dd>
+                    }
+                </dl>
+            </div>
+            <div class="card-footer">
+                <div class="btn-group" role="group">
+                    <a asp-page="Edit" asp-route-id="@Model.Category.Id" class="btn btn-warning">
+                        <i class="bi bi-pencil"></i> Edit
+                    </a>
+                    <a asp-page="Delete" asp-route-id="@Model.Category.Id" class="btn btn-danger">
+                        <i class="bi bi-trash"></i> Delete
+                    </a>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-warning" role="alert">
+            <i class="bi bi-exclamation-triangle"></i> Category not found.
+        </div>
+    }
+</div>
