@@ -27,7 +27,7 @@ public class InvoiceDetailConfiguration : IEntityTypeConfiguration<InvoiceDetail
 
         builder.Property(id => id.CreatedDate)
             .IsRequired()
-            .HasDefaultValueSql("GETUTCDATE()");
+            .HasDefaultValueSql("CURRENT_TIMESTAMP");
 
         builder.Property(id => id.ModifiedDate)
             .IsRequired(false);

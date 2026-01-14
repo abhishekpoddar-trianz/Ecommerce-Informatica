@@ -24,7 +24,7 @@ builder.Services.AddRazorPages();
 
 // Configure DbContext
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(
+    options.UseNpgsql(
         builder.Configuration.GetConnectionString("DefaultConnection"),
         b => b.MigrationsAssembly("EcommerceInformatica.Infrastructure")));
 

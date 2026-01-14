@@ -26,13 +26,13 @@ public static class ServiceCollectionExtensions
         services.AddDbContext<ApplicationDbContext>(options =>
         {
             var connectionString = configuration.GetConnectionString("DefaultConnection");
-            options.UseSqlServer(connectionString, sqlOptions =>
+            options.UseNpgsql(connectionString, npgsqlOptions =>
             {
-                sqlOptions.EnableRetryOnFailure(
+                npgsqlOptions.EnableRetryOnFailure(
                     maxRetryCount: 5,
                     maxRetryDelay: TimeSpan.FromSeconds(30),
-                    errorNumbersToAdd: null);
-                sqlOptions.CommandTimeout(120);
+                    errorCodesToAdd: null);
+                npgsqlOptions.CommandTimeout(120);
             });
 
             // Enable sensitive data logging in development
@@ -86,13 +86,13 @@ public static class ServiceCollectionExtensions
         // Register DbContext
         services.AddDbContext<ApplicationDbContext>(options =>
         {
-            options.UseSqlServer(connectionString, sqlOptions =>
+            options.UseNpgsql(connectionString, npgsqlOptions =>
             {
-                sqlOptions.EnableRetryOnFailure(
+                npgsqlOptions.EnableRetryOnFailure(
                     maxRetryCount: 5,
                     maxRetryDelay: TimeSpan.FromSeconds(30),
-                    errorNumbersToAdd: null);
-                sqlOptions.CommandTimeout(120);
+                    errorCodesToAdd: null);
+                npgsqlOptions.CommandTimeout(120);
             });
 
             if (enableSensitiveDataLogging)

@@ -25,7 +25,7 @@ public class PaymentMethodConfiguration : IEntityTypeConfiguration<PaymentMethod
 
         builder.Property(pm => pm.CreatedDate)
             .IsRequired()
-            .HasDefaultValueSql("GETUTCDATE()");
+            .HasDefaultValueSql("CURRENT_TIMESTAMP");
 
         builder.Property(pm => pm.ModifiedDate)
             .IsRequired(false);

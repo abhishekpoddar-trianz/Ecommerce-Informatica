@@ -50,7 +50,7 @@ public class PersonConfiguration : IEntityTypeConfiguration<Person>
 
         builder.Property(p => p.CreatedDate)
             .IsRequired()
-            .HasDefaultValueSql("GETUTCDATE()");
+            .HasDefaultValueSql("CURRENT_TIMESTAMP");
 
         builder.Property(p => p.ModifiedDate)
             .IsRequired(false);

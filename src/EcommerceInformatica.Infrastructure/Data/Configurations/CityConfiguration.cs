@@ -22,7 +22,7 @@ public class CityConfiguration : IEntityTypeConfiguration<City>
 
         builder.Property(c => c.CreatedDate)
             .IsRequired()
-            .HasDefaultValueSql("GETUTCDATE()");
+            .HasDefaultValueSql("CURRENT_TIMESTAMP");
 
         builder.Property(c => c.ModifiedDate)
             .IsRequired(false);

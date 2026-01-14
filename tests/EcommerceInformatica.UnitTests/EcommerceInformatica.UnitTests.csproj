@@ -16,11 +16,19 @@
     </PackageReference>
     <PackageReference Include="FluentAssertions" Version="6.12.0" />
     <PackageReference Include="Moq" Version="4.20.70" />
+    <PackageReference Include="coverlet.msbuild" Version="6.0.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\EcommerceInformatica.Application\EcommerceInformatica.Application.csproj" />
     <ProjectReference Include="..\..\src\EcommerceInformatica.Domain\EcommerceInformatica.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\Tests\**\*.cs" LinkBase="Tests" />
   </ItemGroup>
 
 </Project>

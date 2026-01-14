@@ -25,7 +25,7 @@ public class BrandConfiguration : IEntityTypeConfiguration<Brand>
 
         builder.Property(b => b.CreatedDate)
             .IsRequired()
-            .HasDefaultValueSql("GETUTCDATE()");
+            .HasDefaultValueSql("CURRENT_TIMESTAMP");
 
         builder.Property(b => b.ModifiedDate)
             .IsRequired(false);

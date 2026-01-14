@@ -34,7 +34,7 @@ public class SupplierConfiguration : IEntityTypeConfiguration<Supplier>
 
         builder.Property(s => s.CreatedDate)
             .IsRequired()
-            .HasDefaultValueSql("GETUTCDATE()");
+            .HasDefaultValueSql("CURRENT_TIMESTAMP");
 
         builder.Property(s => s.ModifiedDate)
             .IsRequired(false);
